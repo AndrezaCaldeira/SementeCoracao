@@ -51,11 +51,12 @@ const Carousel = () => {
       >
         {slides.map((slide, index) => (
           <div className="carousel-item" key={index}>
-            <img src={slide.image} alt={`Slide ${index + 1}`} />
-            <div className="carousel-content">
-              <p>{slide.subtitle}</p>
+            <img src={slide.image}  alt={`Slide ${index + 1}`} />
+            <div className="carousel-content"> 
               <h1>{slide.title}</h1>
+              <p>{slide.subtitle}</p>
               <button className="carousel-btn">{slide.button}</button>
+
             </div>
           </div>
         ))}

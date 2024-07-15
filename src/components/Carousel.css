@@ -1,8 +1,10 @@
-carousel.css
+
 .carousel {
     position: relative;
-    width: 100%;
+    width: 880px;
     overflow: hidden;
+    justify-content: center;
+    
   }
   
   .carousel-inner {
@@ -14,13 +16,8 @@ carousel.css
     min-width: 100%;
     position: relative;
   }
-  
-  .carousel img {
-    width: 100%;
  
-
-  }
-  
+ 
   .carousel-content {
     position: absolute;
     top: 50%;
@@ -32,7 +29,7 @@ carousel.css
     border-radius: 5px;
   }
   
-  .carousel-content h1 {
+  .carousel-content h2{
     margin: 0 0 10px 0;
     font-size: 2rem;
   }
@@ -70,6 +67,7 @@ carousel.css
   .carousel-button.next {
     right: 0;
   }
+  
   
   @media (max-width: 768px) {
     .carousel-content {
