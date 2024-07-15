@@ -2,6 +2,7 @@
 import "@/styles/globals.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import { WhatsappWidget } from "@/components/whatsapp-widget";
 
 interface Props {
   title: string;
@@ -37,6 +38,7 @@ const pathname = new URL(Astro.request.url).pathname;
 
     <main class="bg-[url('/background.png')]">
       <slot />
+      <WhatsappWidget />
     </main>
 
     <footer class="bg-black">
