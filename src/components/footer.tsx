@@ -5,6 +5,7 @@ import { pages } from "@/data/pages";
 import { policyLinks } from "@/data/policyLinks";
 import React from "react";
 
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
